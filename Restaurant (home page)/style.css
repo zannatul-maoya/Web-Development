@@ -1,0 +1,233 @@
+body{
+    margin:0px;
+    font-family: 'Mukta', sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}  
+
+img{
+    width:150px;
+    height:auto;
+}
+
+/*CSS FOR TOPNAV START*/
+
+.topnav{
+    background-color: #dbdbdb;
+}
+
+.topnav .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right:50px;
+
+}
+ 
+.topnav .nav-links{
+    display:flex;
+}
+
+.topnav .nav-link{
+    margin: 0px 10px;
+}
+
+.topnav .search form div{
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+   
+}
+.topnav .search input{
+    padding:5px 7px;
+    border:none;
+}
+
+.topnav .search button{
+    background-color: #ffc30a;
+    border: 0px;
+    padding:7px 10px;
+    color:white;
+}
+/*CSS FOR TOPNAV END*/
+
+/*CSS FOR NAVBAR START*/
+
+.navbar .nav-links{
+    display:flex;
+    padding:15px 0px;
+    background: #f98100;
+    justify-content:center;
+}
+
+.navbar .nav-link{
+    margin:0px 10px;
+    font-weight:bold;
+}
+
+/*CSS FOR NAVBAR END*/
+
+/*CSS FOR HERO START*/
+
+.hero{
+    display:flex;
+    justify-content: center;
+    background-image:url("https://i.pinimg.com/originals/41/0d/4c/410d4c966a3d29eb4deb35ea0771d71d.jpg");
+    background-repeat:no-repeat ;
+   background-size: cover;
+   margin:0px 80px;
+
+}
+
+.hero .container{
+    text-align: center;
+    color:white;
+    margin:80px 0px;
+}
+
+.hero .container h2{
+    margin: 0px 0px;
+}
+
+.hero .container form input{
+    width:320px;
+    padding: 10px;
+    border-radius: 5px;
+    border:0px;
+}
+
+.hero .container button{
+    background-color: #f98100;
+    border: 0px;
+    padding:7px 10px;
+    color:white; 
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/*CSS FOR HERO END*/
+
+
+/*CSS FOR RECIPES START*/
+
+.recipes{
+    padding-bottom: 30px;
+    display:flex;
+    justify-content:center;
+}
+.recipes .container .title{
+     color:#46a141;
+}
+.recipes .items{
+    display:flex;
+    justify-content:space-between;
+}
+
+.recipes .items .item{
+   margin:0px 20px;
+   width:150px;
+   text-align: center;
+}
+
+.recipes .items .item small{
+    text-transform: uppercase;
+}
+
+.recipes .items .item .name{
+    margin:0px 0px;
+}
+.recipes .img-wrapper img{
+    object-fit:cover;
+    height:150px;
+    border-radius: 5px;
+}
+
+.rated{
+    color:#f98100;
+}
+.not-rated{
+    color:#bebfbe;
+}
+
+.line{
+    content:"";
+    width:450px;
+    height: 2px;
+    border-radius: 5px;;
+    background:#d2d3d2;
+    margin: 20px auto;
+}
+ 
+/*CSS FOR RECIPES END*/
+
+/*CSS FOR FOOTER START*/
+footer{
+    background:#d2d3d2;
+}
+
+footer .container{
+    display:flex;
+    justify-content:space-between;
+    margin-left: 210px;
+    margin-right: 210px;  
+}
+
+footer .container .subscription{
+     width:300px;
+}
+
+footer .container .subscription small{
+     margin-top:15px;
+}
+
+footer .container .subscription form input{
+    border:none;
+    color:white;
+    padding:5px 7px;
+    border-radius: 5px;
+}
+
+footer .container .subscription form button{
+    background-color:#f98100;
+    border: 0px;
+    padding:7px 10px;
+    margin-left:10px;
+    color:white;
+    border-radius:7px;
+}
+
+footer .container .contact{
+    text-align:right;
+}
+
+footer .container .contact .one{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+footer .container .contact .icon2{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+footer .container .contact .icon2 i{
+    color:grey;
+}
+footer h4 {
+    margin-bottom:15px;
+}
+
+
+footer .footer-bottom{
+    text-align: center;
+}
+
+/*CSS FOR FOOTER END*/
+
+
+
